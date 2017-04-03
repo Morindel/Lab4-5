@@ -18,10 +18,10 @@ public class FigureComponent extends JPanel{
 	public static List <Polygon> polygon = new ArrayList<>();
 	
 	
-		private Figure t1 = new Triangle( new Point(100,200),new Point(0,0),new Point(500,400),Color.GREEN);
-		private Figure t2 = new Triangle( new Point(800,200), new Point(300,120), new Point(700,450),Color.RED);
-		private Figure q1 = new  Quadrangle ( new Point(0,0),  new Point(200,0), new Point(200,200),new Point(0,200),Color.BLUE);
-		private Figure q2 = new Quadrangle(new Point(730,300),new Point(540,300), new Point(230,500) ,new Point(300,490),Color.CYAN);
+		private Polygon t1 = new Triangle( new Point(100,200),new Point(0,0),new Point(500,400),Color.GREEN);
+		private Polygon t2 = new Triangle( new Point(800,200), new Point(300,120), new Point(700,450),Color.RED);
+		private Polygon q1 = new  Quadrangle ( new Point(0,0),  new Point(200,0), new Point(200,200),new Point(0,200),Color.BLUE);
+		private Polygon q2 = new Quadrangle(new Point(730,300),new Point(540,300), new Point(230,500) ,new Point(300,490),Color.CYAN);
 		private static Figure c1 = new Circle(700, 300, 300);
 		public static Figure [] t = {c1};
 		public static void Presentation()
